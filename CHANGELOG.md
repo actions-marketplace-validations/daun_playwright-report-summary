@@ -1,5 +1,26 @@
 # Changelog
 
+## [4.1.0] - 2026-07-09
+
+- Support deployment_status events (@chen-anders)
+
+## [4.0.0] - 2026-05-27
+
+- Upgrade runtime to node 24
+- Extend sanitization to all user-facing strings to prevent markdown injection
+- Strip ANSI escapes and cap string lengths to prevent comment flooding
+- Add readme section on safely using action outputs
+- Convert bundler to rollup
+- Upgrade dependencies
+
+## [3.11.0] - 2026-03-13
+
+- Make section visibility configurable
+
+## [3.10.1] - 2026-03-13
+
+- Sanitize test titles to prevent html injection (@judeallred)
+
 ## [3.10.0] - 2025-07-23
 
 - Allow passing in a pull request number to comment on (@darmbrust)
@@ -94,6 +115,10 @@
 
 - Initial release
 
+[4.1.0]: https://github.com/daun/playwright-report-summary/releases/tag/v4.1.0
+[4.0.0]: https://github.com/daun/playwright-report-summary/releases/tag/v4.0.0
+[3.11.0]: https://github.com/daun/playwright-report-summary/releases/tag/v3.11.0
+[3.10.1]: https://github.com/daun/playwright-report-summary/releases/tag/v3.10.1
 [3.10.0]: https://github.com/daun/playwright-report-summary/releases/tag/v3.10.0
 [3.9.0]: https://github.com/daun/playwright-report-summary/releases/tag/v3.9.0
 [3.8.0]: https://github.com/daun/playwright-report-summary/releases/tag/v3.8.0
